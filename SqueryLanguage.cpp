@@ -449,9 +449,9 @@ void query()
 			char colname[100], table[100];
 			printf("Enter the query\n");
 			scanf("%s",query_string);
-			send_to_tokenizer(query_string);
+			//send_to_tokenizer(query_string);
 		
-		/*	printf("enter the COLUMN and CONDITION and VALUE\n");
+			printf("enter the COLUMN and CONDITION and VALUE\n");
 			scanf("%s %s %s", h, con, value);
 			for (i = 1; i <= (marks_record_index + 10); i++)
 			{
@@ -641,7 +641,7 @@ void query()
 						display(i);
 				}
 			}
-		}*/
+		}
 	}
 		getchar();
 
